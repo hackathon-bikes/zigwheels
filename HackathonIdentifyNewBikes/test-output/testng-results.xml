@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-08T10:18:05Z" name="Default suite" finished-at="2021-05-08T10:19:57Z" duration-ms="111351">
+    <groups>
+      <group name="regression">
+        <method signature="Testbase.ZigwheelsSignInTest()[pri:3, instance:com.identifyNewBikes.Testbase@7ae0a9ec]" name="ZigwheelsSignInTest" class="com.identifyNewBikes.Testbase"/>
+        <method signature="Testbase.popularUsedCarsTest()[pri:2, instance:com.identifyNewBikes.Testbase@7ae0a9ec]" name="popularUsedCarsTest" class="com.identifyNewBikes.Testbase"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Testbase.ZigwheelsSignInTest()[pri:3, instance:com.identifyNewBikes.Testbase@7ae0a9ec]" name="ZigwheelsSignInTest" class="com.identifyNewBikes.Testbase"/>
+        <method signature="Testbase.upcomingBikesTest()[pri:1, instance:com.identifyNewBikes.Testbase@7ae0a9ec]" name="upcomingBikesTest" class="com.identifyNewBikes.Testbase"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-05-08T10:18:05Z" name="Default test" finished-at="2021-05-08T10:19:57Z" duration-ms="111351">
+      <class name="com.identifyNewBikes.Testbase">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.identifyNewBikes.Testbase@7ae0a9ec]" started-at="2021-05-08T10:18:05Z" name="init" finished-at="2021-05-08T10:18:32Z" duration-ms="26747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="upcomingBikesTest()[pri:1, instance:com.identifyNewBikes.Testbase@7ae0a9ec]" started-at="2021-05-08T10:18:32Z" name="upcomingBikesTest" finished-at="2021-05-08T10:19:24Z" duration-ms="52241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upcomingBikesTest -->
+        <test-method signature="popularUsedCarsTest()[pri:2, instance:com.identifyNewBikes.Testbase@7ae0a9ec]" started-at="2021-05-08T10:19:24Z" name="popularUsedCarsTest" finished-at="2021-05-08T10:19:39Z" duration-ms="14339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popularUsedCarsTest -->
+        <test-method signature="ZigwheelsSignInTest()[pri:3, instance:com.identifyNewBikes.Testbase@7ae0a9ec]" started-at="2021-05-08T10:19:39Z" name="ZigwheelsSignInTest" finished-at="2021-05-08T10:19:54Z" duration-ms="15242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZigwheelsSignInTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.identifyNewBikes.Testbase@7ae0a9ec]" started-at="2021-05-08T10:19:54Z" name="closeDriver" finished-at="2021-05-08T10:19:57Z" duration-ms="2755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.identifyNewBikes.Testbase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
